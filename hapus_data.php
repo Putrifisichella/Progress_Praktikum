@@ -17,4 +17,3 @@
                         window.location.href='form.php';
                     </script>";
 
-?>

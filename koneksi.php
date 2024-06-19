@@ -5,7 +5,7 @@
     $passwordUser = "";
     $dataBaseName = "pwb";
 
-    $koneksi = mysqli_connect($hostname,$userDataBase,$passwordUser,$dataBaseName) or die (mysqli_error());
+    $koneksi = mysqli_connect($hostname,$userDataBase,$passwordUser,$dataBaseName) or die (mysqli_error($mysqli));
 
     // if($koneksi){
     //     echo "berhasil koneksi";
